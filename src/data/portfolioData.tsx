@@ -26,6 +26,15 @@ const projectData = [
     siteUrl: "https://xeet.ai"
   },
   {
+    type: ["blockchain", "game"],
+    role: "Blockchain Developer",
+    skills: ["Rust", "Anchor", "Solana", "Web3", "Casino"],
+    imgUrl: "imgs/works/panda.png",
+    summary:
+      "Crash, Plinko, Dice, Mines, Roulette, Blackjack, Baccarat, and more.",
+    siteUrl: "https://panda.co",
+  },
+  {
     type: ["blockchain"],
     role: "Solana Smart Contract Developer",
     skills: ["Rust", "Anchor", "Web3"],
@@ -33,6 +42,15 @@ const projectData = [
     summary:
       "Built a Pump.fun competition bonding curve smart contract to enable fair token launches and price discovery.",
     siteUrl: "https://pump.science"
+  },
+  {
+    type: ["blockchain", "web"],
+    role: "Web3 | Full Stack Developer",
+    skills: ["Web3", "CEX", "React", "Node", ".Net", "C#"],
+    imgUrl: "imgs/works/oxfx.png",
+    summary:
+      "Centralized Exchange Platform",
+    siteUrl: "https://oxfx.com"
   },
   {
     type: ["blockchain"],
