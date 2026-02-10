@@ -2,8 +2,6 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import { Bounce, Fade } from "react-awesome-reveal";
 
-import { socialLinks } from "../data/socialLinks";
-
 export default function Home() {
   return (
     <div className="flex flex-col h-full px-3 overflow-x-hidden overflow-y-auto dark:bg-[#2a2a2a] bg-white py-100 transition-all duration-300">
@@ -13,7 +11,7 @@ export default function Home() {
             <div className="p-2 center min-h-[200px]">
               <div className="ring"></div>
               <div className="relative p-2">
-                <img src="imgs/avatar1.png" className="w-[200px] rounded-full" />
+                <img src="imgs/avatar1.png" alt="avatar1" className="w-[200px] rounded-full" />
               </div>
             </div>
           </Fade>

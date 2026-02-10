@@ -27,6 +27,15 @@ const projectData = [
   },
   {
     type: ["blockchain"],
+    role: "Solana Smart Contract Developer",
+    skills: ["Rust", "Anchor", "Web3"],
+    imgUrl: "imgs/works/pump.png",
+    summary:
+      "Built a Pump.fun competition bonding curve smart contract to enable fair token launches and price discovery.",
+    siteUrl: "https://pump.science"
+  },
+  {
+    type: ["blockchain"],
     role: "Solana Developer",
     skills: ["Rust", "Solana", "Web3", "Next.JS", "Node.JS"],
     imgUrl: "imgs/works/BASC.png",
