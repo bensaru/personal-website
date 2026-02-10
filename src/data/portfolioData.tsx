@@ -3,18 +3,27 @@ const filterKey = [
   { title: "Blockchain", key: "blockchain" },
   { title: "game", key: "game" },
   { title: "web", key: "web" },
-  { title: "Mobile App", key: "mobile" }
+  { title: "Mobile", key: "mobile" }
 ];
 
 const projectData = [
   {
-    type: ["blockchain"],
+    type: ["blockchain", "game"],
     role: "Smart Contract/Web3 Developer",
     skills: ["Rust", "Anchor", "Solana", "Web3", "Next.JS", "Tailwind"],
     imgUrl: "imgs/works/goalpost.png",
     summary:
       "Poker platform on Solanan chain.",
     siteUrl: "https://goalpost.gg",
+  },
+  {
+    type: ["blockchain", "game", "web"],
+    role: "Full Stack Web3 AI Engineer",
+    skills: ["Rust", "React", "Node", "AI", "Python"],
+    imgUrl: "imgs/works/xeet.png",
+    summary:
+      "Developed backend and AI features powering the xeet.ai platform, focusing on reliability, scalability, and performance under real-world workloads.",
+    siteUrl: "https://xeet.ai"
   },
   {
     type: ["blockchain"],
@@ -24,6 +33,14 @@ const projectData = [
     summary:
       "This is pair staking platform on Solana network for BASC (Baby Ape Social Club) collection.",
     siteUrl: "https://stakingv2.babyapesocialclub.com",
+  }, {
+    type: ["blockchain", "web"],
+    role: "Frontend and Web3 Developer",
+    skills: ["Solana", "Next.JS", "Web3", "Tailwind"],
+    imgUrl: "imgs/works/yaku.png",
+    summary:
+      "Yaku Hub is your access pass to a smarter platform that delivers value to the ecosystem as a whole.",
+    siteUrl: "https://www.yaku.ai",
   },
   {
     type: ["web"],
@@ -35,21 +52,13 @@ const projectData = [
     siteUrl: "https://wedance.vip",
   },
   {
-    type: ["ai"],
-    role: "AI Developer",
-    skills: ["Next.js", "Python", "ML"],
-    imgUrl: "imgs/works/aiwork2.png",
+    type: ["mobile"],
+    role: "Mobile Developer",
+    skills: ["IOS", "Android"],
+    imgUrl: "imgs/works/g-plans.png",
     summary:
-      "AI Project",
-    siteUrl: "https://chatdoc.com",
-  }, {
-    type: ["ai", "dapp"],
-    role: "AI Developer",
-    skills: ["Next.js", "Node.js", "ElizaOS"],
-    imgUrl: "imgs/works/aiwork3.png",
-    summary:
-      "AI Project",
-    siteUrl: "https://trade-ai-pink.vercel.app/",
+      "G-Plans is fitness mobile application.",
+    siteUrl: "https://g-plans.com",
   }, {
     type: ["casino", "game"],
     role: "Fullstack Developer",

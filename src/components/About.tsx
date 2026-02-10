@@ -35,11 +35,11 @@ export default function About() {
               <FaTools size={24} />
               Skill Sets
             </h1>
-            <div className="grid items-center justify-start w-full grid-cols-4 gap-3 md:grid-cols-6">
+            <div className="grid items-center justify-start w-full grid-cols-3 gap-3 md:grid-cols-4">
               {skillSets.map((item, key) => (
                 <div
                   key={key}
-                  className={`px-2 py-2 font-medium border-[1px] dark:border-[#222] border-gray-200 border-r-2 dark:text-[#999]
+                  className={`px-2 py-4 font-medium border-[1px] dark:border-[#222] border-gray-200 border-r-2 dark:text-[#999]
                    text-[#434343] bg-gray-100 border-b-[3px] shadow-lg uppercase dark:bg-[#313131] rounded-[4px] md:text-[.7em]
                     text-[.65em] cursor-pointer dark:hover:bg-[#474747] hover:bg-gray-300 duration-300 transition-all text-center`}
                 >
@@ -57,7 +57,7 @@ export default function About() {
               {knowledgeSets.map((item, key) => (
                 <div
                   key={key}
-                  className={`w-full px-1 py-6 md:py-1 h-[50px] flex items-center justify-center border-gray-200 border-r-2 text-[#636363]
+                  className={`w-full px-2 py-4 md:py-1 h-[50px] flex items-center justify-center border-gray-200 border-r-2 text-[#636363]
                    bg-gray-100 font-medium border-[1px] dark:border-[#222] dark:text-[#999] border-b-[3px] shadow-lg uppercase dark:bg-[#313131] rounded-[4px]
                     md:text-[.7em] text-[.65em] cursor-pointer dark:hover:bg-[#474747] duration-300 transition-all text-center hover:bg-gray-300`}
                 >
