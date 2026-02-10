@@ -2,6 +2,7 @@ const skillSets = [
   "React.Js",
   "Next.Js",
   "Vue.Js",
+  "Nuxt.JS",
   "Angular",
   "Node.Js",
   "Express",
@@ -10,28 +11,31 @@ const skillSets = [
   "Flutter",
   "MongoDB",
   "MySQL",
-  "Postgre",
+  "PostgreSQL",
   "Firebase",
-  "AWS",
-  "GCP",
   "GraphQL",
+  "Docker",
   "Solidity",
   "Rust",
   "Web3",
-  "Ethereum",
+  "EVM",
   "Solana",
+  "Bitcoin",
   "DAO",
   "Defi",
-  "Dex"
+  "Dex",
+  "AI"
 ];
 
 const knowledgeSets = [
-  "Website hosting",
+  "Web hosting",
   "Github",
   "Gitlab",
-  "Docker",
+  "Devops",
+  "AWS",
   "GCP",
-  "CI/CD Pipleline"
+  "CI/CD Pipleline",
+  "Mobile"
 ];
 
 export { skillSets, knowledgeSets };
