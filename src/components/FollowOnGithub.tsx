@@ -12,7 +12,7 @@ export default function FollowOnGithub() {
           className="py-2 px-[100px] text-white"
           href={socialLinks.github}
           target="_blank"
-          rel="referrer"
+          rel="noreferrer"
         >
           <h1 className="text-[10px] md:text-[16px]">Follow On Github</h1>
         </a>

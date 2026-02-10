@@ -54,7 +54,7 @@ export default function PortfolioCard(props: {
             <a
               href={props.siteUrl}
               target="_blank"
-              rel="referrer"
+              rel="noreferrer"
               className={`px-2 py-2 w-[100px] flex items-center justify-center font-extrabold text-[#999] uppercase bg-[#313131] rounded-sm text-[.6em] cursor-pointer hover:bg-[#474747] duration-300 transition-all
               border-b-2 border-white
           `}

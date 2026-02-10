@@ -1,6 +1,5 @@
 import "react-awesome-button/dist/styles.css";
 import { Fade } from "react-awesome-reveal";
-import { PiStudentFill } from "react-icons/pi";
 import { FaTools } from "react-icons/fa";
 import { SiRetool } from "react-icons/si";
 
