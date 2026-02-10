@@ -26,6 +26,15 @@ const projectData = [
     siteUrl: "https://xeet.ai"
   },
   {
+    type: ["blockchain", "web"],
+    role: "Full Stack Web3 Developer",
+    skills: ["Next.JS", "Node.JS", "MongoDB", "TypeScript", "Web3"],
+    imgUrl: "imgs/works/pumpfun-evm.png",
+    summary:
+      "Fork pump.fun on EVM blockchain.",
+    siteUrl: "https://pump.fun"
+  },
+  {
     type: ["blockchain", "game"],
     role: "Blockchain Developer",
     skills: ["Rust", "Anchor", "Solana", "Web3", "Casino"],
