@@ -2,7 +2,7 @@ const filterKey = [
   { title: "show all", key: "*" },
   { title: "Blockchain", key: "blockchain" },
   { title: "game", key: "game" },
-  { title: "web", key: "web"},
+  { title: "web", key: "web" },
   { title: "Mobile App", key: "mobile" }
 ];
 
@@ -10,30 +10,31 @@ const projectData = [
   {
     type: ["blockchain"],
     role: "Smart Contract/Web3 Developer",
-    skills: ["Rust", "Anchor", "Solana", "Web3", "Next.js", "Tailwind"],
-    imgUrl: "imgs/works/s1.png",
+    skills: ["Rust", "Anchor", "Solana", "Web3", "Next.JS", "Tailwind"],
+    imgUrl: "imgs/works/goalpost.png",
     summary:
       "Poker platform on Solanan chain.",
     siteUrl: "https://goalpost.gg",
   },
   {
-    type: ["ai"],
-    role: "Fullstack Developer",
-    skills: ["Next.js", "Eliza", "OpenAI"],
-    imgUrl: "imgs/works/s2.png",
+    type: ["blockchain"],
+    role: "Solana Developer",
+    skills: ["Rust", "Solana", "Web3", "Next.JS", "Node.JS"],
+    imgUrl: "imgs/works/BASC.png",
     summary:
-      "AI Agent",
-    siteUrl: "https://x.com/bankrbot",
+      "This is pair staking platform on Solana network for BASC (Baby Ape Social Club) collection.",
+    siteUrl: "https://stakingv2.babyapesocialclub.com",
   },
   {
-    type: ["ai"],
-    role: "AI Developer",
-    skills: ["Next.js", "Python", "ML"],
-    imgUrl: "imgs/works/aiwork1.png",
+    type: ["web"],
+    role: "Frontend Developer",
+    skills: ["Nuxt.JS", "Tailwind"],
+    imgUrl: "imgs/works/wedance.png",
     summary:
-      "AI Project",
-    siteUrl: "https://storyfile.com",
-  },{
+      "WeDance is online dance platform.",
+    siteUrl: "https://wedance.vip",
+  },
+  {
     type: ["ai"],
     role: "AI Developer",
     skills: ["Next.js", "Python", "ML"],
@@ -41,7 +42,7 @@ const projectData = [
     summary:
       "AI Project",
     siteUrl: "https://chatdoc.com",
-  },{
+  }, {
     type: ["ai", "dapp"],
     role: "AI Developer",
     skills: ["Next.js", "Node.js", "ElizaOS"],
@@ -49,7 +50,7 @@ const projectData = [
     summary:
       "AI Project",
     siteUrl: "https://trade-ai-pink.vercel.app/",
-  },{
+  }, {
     type: ["casino", "game"],
     role: "Fullstack Developer",
     skills: ["Next.js", "Web3.Js", "Node.js", "Solidity"],
@@ -57,7 +58,7 @@ const projectData = [
     summary:
       "Betting game on HyperLiquid",
     siteUrl: "https://vegas.fun/",
-  },{
+  }, {
     type: ["casino", "game"],
     role: "Fullstack Developer",
     skills: ["Next.js", "Web3.Js", "Node.js", "Solidity"],
@@ -66,7 +67,7 @@ const projectData = [
       "Crash Game on Cronos",
     siteUrl: "https://crocrash.io/",
   },
-  
+
   {
     type: ["dex", "nft"],
     role: "Frontend Developer",
@@ -106,7 +107,7 @@ const projectData = [
   {
     type: ["dex"],
     role: "Fullstack Developer",
-    skills: ["Next.js", "Subgraph", "Ethers.js",  "Wagmi", "Node.js", "React"],
+    skills: ["Next.js", "Subgraph", "Ethers.js", "Wagmi", "Node.js", "React"],
     imgUrl: "imgs/works/work23.png",
     summary:
       "Meme coin & Dex on Cronos",
@@ -176,7 +177,7 @@ const projectData = [
     siteUrl: "https://pioneerlegends.com",
   },
   {
-    type: ["ecommerce","mobile"],
+    type: ["ecommerce", "mobile"],
     role: "Mobile App Developer",
     skills: ["Swift", "React Native"],
     imgUrl: "imgs/works/s11.png",
@@ -325,7 +326,7 @@ const projectData = [
     siteUrl: "https://doodlebunnyflr.live/",
   },
   {
-    type: ["nft", "design"],
+    type: ["blockchain"],
     role: "Frontend and Solidity Developer",
     skills: ["React.Js", "Web3.Js", "Solidity"],
     imgUrl: "imgs/works/work18.jpg",
