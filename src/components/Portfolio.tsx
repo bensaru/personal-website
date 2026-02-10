@@ -42,7 +42,7 @@ export default function Portfolio() {
         </Fade>
         <Fade delay={1000} triggerOnce={true}>
           <p className="text-[#8a8a8a] text-md text-center">
-            Check out my latest web | blockchain development portfolio projects.
+            Check out my latest Web | Blockchain development projects.
           </p>
         </Fade>
         <Fade delay={1300} triggerOnce={true} className="w-full">

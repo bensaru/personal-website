@@ -8,13 +8,13 @@ const filterKey = [
 
 const projectData = [
   {
-    type: ["ai"],
-    role: "Fullstack Developer",
-    skills: ["Next.js", "SendAI", "OpenAI"],
+    type: ["blockchain"],
+    role: "Smart Contract/Web3 Developer",
+    skills: ["Rust", "Anchor", "Solana", "Web3", "Next.js", "Tailwind"],
     imgUrl: "imgs/works/s1.png",
     summary:
-      "AI Agent",
-    siteUrl: "https://supplyvest.com",
+      "Poker platform on Solanan chain.",
+    siteUrl: "https://goalpost.gg",
   },
   {
     type: ["ai"],
