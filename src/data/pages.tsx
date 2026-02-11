@@ -28,7 +28,7 @@ const pages: PageType[] = [
   },
   {
     path: "/portfolio",
-    title: "portfolio",
+    title: "projects",
     icon: <BiLogoMicrosoft size={23} />,
     module: <Portfolio />,
   },

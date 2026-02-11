@@ -8,15 +8,6 @@ const filterKey = [
 
 const projectData = [
   {
-    type: ["blockchain", "game"],
-    role: "Smart Contract/Web3 Developer",
-    skills: ["Rust", "Anchor", "Solana", "Web3", "Next.JS", "Tailwind"],
-    imgUrl: "imgs/works/goalpost.png",
-    summary:
-      "Poker platform on Solanan chain.",
-    siteUrl: "https://goalpost.gg",
-  },
-  {
     type: ["blockchain", "game", "web"],
     role: "Full Stack Web3 AI Engineer",
     skills: ["Rust", "React", "Node.JS", "AI", "Python"],
@@ -51,6 +42,15 @@ const projectData = [
     summary:
       "Built a Pump.fun competition bonding curve smart contract to enable fair token launches and price discovery.",
     siteUrl: "https://pump.science"
+  },
+  {
+    type: ["blockchain", "game"],
+    role: "Smart Contract/Web3 Developer",
+    skills: ["Rust", "Anchor", "Solana", "Web3", "Next.JS", "Tailwind"],
+    imgUrl: "imgs/works/goalpost.png",
+    summary:
+      "Poker platform on Solanan chain.",
+    siteUrl: "https://goalpost.gg",
   },
   {
     type: ["blockchain", "web"],

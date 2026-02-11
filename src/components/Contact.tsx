@@ -35,7 +35,7 @@ export default function Contact() {
             <Fade delay={1500} triggerOnce={true}>
               <iframe
                 title="contact"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d136834.1519573059!2d-80.9238325!3d46.5225589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1639991650837!5m2!1sen!2sbd"
+                src="https://www.google.com/maps?output=embed&q=Tulip%C3%A1n+u.+16,+Miskolc,+3530,+Hungary"
                 style={{ border: 0, width: "100%", height: "100%" }}
                 allowFullScreen={true}
                 loading="lazy"
@@ -48,7 +48,7 @@ export default function Contact() {
               Let's get social
             </h1>
             <p className="dark:text-[#9a9a9a] text-center md:text-left text-sm text-[#747474]">
-              Follow profiles on GitHub and Linkedin.
+              Follow profiles on GitHub and Twitter.
             </p>
           </Fade>
 
