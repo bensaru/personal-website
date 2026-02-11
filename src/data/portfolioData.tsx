@@ -71,7 +71,7 @@ const projectData = [
     siteUrl: "https://pvplabs.xyz"
   },
   {
-    type: ["blockchain"],
+    type: ["blockchain", "web"],
     role: "Solana Developer",
     skills: ["Rust", "Solana", "Web3", "Next.JS", "Node.JS"],
     imgUrl: "imgs/works/BASC.png",
