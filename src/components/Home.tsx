@@ -25,7 +25,7 @@ export default function Home() {
               Here is Ben has 9 years of experience in Software (Web and App) development and 4 years of Blockchain Space. <br />
               As a doxxed dev, attended in various kinds of projects. I don't like to put the long wall for me.
               Instead of that, you can check my past works. <br />
-              So if you’re looking for extra devs or gonna extend your team, I’d like to collaborate and get success together.
+              So if you’re looking for extra devs or gonna expand your team, I’d like to collaborate and get success together.
             </p>
           </Fade>
           <Bounce delay={1600} triggerOnce={true}>
