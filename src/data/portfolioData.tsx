@@ -23,7 +23,7 @@ const projectData = [
     imgUrl: "imgs/works/pumpfun-evm.png",
     summary:
       "Fork pump.fun on EVM blockchain.",
-    siteUrl: "https://pump.fun"
+    siteUrl: "https://ape.store"
   },
   {
     type: ["blockchain", "game"],
