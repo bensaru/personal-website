@@ -53,7 +53,7 @@ const projectData = [
     siteUrl: "https://goalpost.gg",
   },
   {
-    type: ["blockchain", "web"],
+    type: ["web"],
     role: "Web3 | Full Stack Developer",
     skills: ["Web3", "CEX", "React", "Node.JS", ".Net", "C#"],
     imgUrl: "imgs/works/oxfx.png",
@@ -71,7 +71,7 @@ const projectData = [
     siteUrl: "https://pvplabs.xyz"
   },
   {
-    type: ["blockchain"],
+    type: ["blockchain", "web"],
     role: "Solana Developer",
     skills: ["Rust", "Solana", "Web3", "Next.JS", "Node.JS"],
     imgUrl: "imgs/works/BASC.png",
