@@ -26,7 +26,7 @@ function Navigation() {
               as={Link}
               key={index}
               to={page.path}
-              className="flex items-center justify-center "
+              className="flex items-center justify-center"
             >
               <div
                 className={`p-2 transition-all duration-300 hover:bg-red-600 hover:rounded-full hover:bg-opacity-20 relative tooltip ${
